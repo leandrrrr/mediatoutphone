@@ -12,7 +12,7 @@ namespace MediaToutPhone.Views
     {
         public Item Item { get; set; }
 
-        public NewItemPage()
+        public NewItemPage(int idRessource)
         {
             InitializeComponent();
             BindingContext = new NewItemViewModel();
