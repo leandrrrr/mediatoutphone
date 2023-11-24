@@ -16,6 +16,7 @@
                 <Image Source="xamarin_logo.png" VerticalOptions="Center" HeightRequest="200" />
             </ContentView>
         </StackLayout>
+        <Entry x:Name="entrySearch"></Entry>
         <Button x:Name="btnSearch" Text="Rechercher" Clicked="btnSearchClicked" />
         <ScrollView x:Name="svRessources" Orientation="Vertical">
             <!-- Ajouter dynamiquement des éléments ici -->
